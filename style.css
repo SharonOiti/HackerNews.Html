@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+}
+
+.main-nav-links {
+    display: inline-block;
+}
+
+.main-nav-links.hidden {
+    display: none;
+}
+
+.nav-right {
+    float: right;
+}
+
+.nav-right .hidden {
+    display: none;
+}
+
+/* Story List */
+.stories-container {
+    margin-top: 20px;
+}
+
+.stories-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.stories-list li {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+/* Form Styles */
+form {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* User Profile */
+.user-profile-box {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Loading Message */
+#stories-loading-msg {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+}
